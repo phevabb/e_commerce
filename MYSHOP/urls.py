@@ -24,7 +24,8 @@ urlpatterns = [
     path('api/', include('api.urls')),    
     path('admin/', admin.site.urls),
     path('cart/', include('cart.urls', namespace='cart')),
-    path('', include('shop.urls', namespace='shop')),
+    path('', include('admin_argon.urls')),
+    path('shop/', include('shop.urls', namespace='shop')),
 
 
 ]

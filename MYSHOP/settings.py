@@ -31,7 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'jazzmin',
+    'admin_argon.apps.AdminArgonConfig',
+  #  'jazzmin',
     'djmoney',
     'cart.apps.CartConfig',
     'shop.apps.ShopConfig',
